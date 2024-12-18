@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             let botResponse = `
                 <div class="chat response">
-                    <img src="https://mohammed-website.github.io/seeftravel/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A-%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A.png">
+                    <img src="https://mohammed-website.github.io/alaalitravel/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A-%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A.png">
                     <span class="new">...</span>
                 </div>
             `;
@@ -478,7 +478,7 @@ function openFullScreenImage(src, text) {
     const whatsappButton = document.createElement('a');
     whatsappButton.className = 'whatsapp_button';
     whatsappButton.innerText = 'إرسال هذا العرض';
-    whatsappButton.href = `https://wa.me/+97339004446?text=طلب%20حجز%20هذا%20العرض:%0Ahttps://mohammed-website.github.io/seeftravel/${encodeURIComponent(src)}`;
+    whatsappButton.href = `https://wa.me/+97339004446?text=طلب%20حجز%20هذا%20العرض:%0Ahttps://mohammed-website.github.io/alaalitravel/${encodeURIComponent(src)}`;
     fullScreenDiv.appendChild(whatsappButton);
 
     // Close on background click
